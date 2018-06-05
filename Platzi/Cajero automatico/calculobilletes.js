@@ -54,6 +54,8 @@ var entregado = [];
 
 /* Contruimos e insertamos en la clase billetes los correspondientes billetes
 junto con su valor y cantidad */
+caja.push(new Billete(500, 3));
+caja.push(new Billete(200, 4));
 caja.push(new Billete(100, 5));
 caja.push(new Billete(50, 50));
 caja.push(new Billete(20, 30));
